@@ -1,0 +1,109 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visual Keyboard</title>
+     <link rel="stylesheet" type="text/css" href="css.css">
+    <style>
+        body{
+            background: #00436E
+				
+        }
+	
+        #search_field{
+            display: block;
+            margin: 0 auto;
+            padding: 5px 10px;
+            font-size: 28px; 
+            width: 50%;
+        }
+		.vk {
+			display: inline-block;
+			border: solid 3px yellow;
+			background-color: ##000080;
+			color: #FFFFFF;
+			padding: 19px;
+			margin: 5px;
+		}
+		.vk:hover{
+			background-color: #00ffff;
+			color: red;
+		}
+		#text {
+			width: 1200px;
+                        height: 100px;
+			padding: 20px;
+			border: 5px solid #FFFFFF;
+			margin: 20px;
+                        background: #f0fff0
+		}
+ 
+ </style>
+</head>
+<body>
+   
+    
+    <script src='js.js'></script>
+
+
+	<div id="text">
+	
+	</div>
+	
+	<div class="bgkeyboard" >
+		<div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>1</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>2</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>3</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>4</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>5</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>6</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>7</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>8</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>9</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>0</div>
+			<div class="vk otc" onclick='del()'> Backspace </div>
+		</div>
+		<div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>Q</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>W</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>E</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>R</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>T</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>Y</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>U</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>I</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>O</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>P</div>
+			<div class="vk brs" onclick='vk(this.innerHTML)'>;</div>
+                        <div class="vk br" onclick='vk(this.innerHTML)'>?</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>!</div>
+		</div>
+		<div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>A</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>S</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>D</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>F</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>G</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>H</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>J</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>K</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>L</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'> / </div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>=</div>
+			<div class="vk" onclick='vk(this.innerHTML)'>.</div>
+			<div class="vk" onclick='vk(this.innerHTML)'>,</div>
+		</div>
+		<div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>Z</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>X</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>C</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>V</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>B</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>N</div>
+			<div class="vk br" onclick='vk(this.innerHTML)'>M</div>
+		</div>
+	</div>
+</body>
+</html>
